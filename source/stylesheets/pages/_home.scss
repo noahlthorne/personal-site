@@ -18,11 +18,7 @@ p {
 
 
 .gradient-bg {
-  background: linear-gradient(156deg, #2C3E50 0%, #4CA1AF 100%);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 80%;
   height: 100vh;
 }
 
@@ -79,7 +75,17 @@ height: 100vh;
   margin-bottom: 40px;
 }
 
+#particles-js {
+  z-index: -1;
+  background: linear-gradient(156deg, #2C3E50 0%, #4CA1AF 100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 
-
-
+#main-page {
+  display: flex;
+}
 
