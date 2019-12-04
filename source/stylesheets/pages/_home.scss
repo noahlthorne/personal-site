@@ -1,7 +1,85 @@
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 48px;
+  color: #F4F4F4;
+
+}
+
+h3 {
+  font-size: 28px;
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Open Sans', 'sans-serif';
+  color: #F4F4F4;
+}
+
+
 .gradient-bg {
-  background: linear-gradient(156deg, #8bc6e1 0%, #9c8dbc 75%, #ab5c9b 100%);
+  background: linear-gradient(156deg, #2C3E50 0%, #4CA1AF 100%);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
+
+#particle-div {
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+
+}
+
+.projects {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px solid #F4F4F4;
+  border-bottom: 1px solid #F4F4F4;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center ;
+  text-align: center;
+}
+
+.project-heading {
+  color: #F4F4F4
+}
+
+.project-cards {
+  display: flex;
+  justify-content: center ;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#main-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #F4F4F4;
+  text-align: center;
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  h1 {
+    display: inline-block;
+  }
+}
+
+#description-text {
+  margin-bottom: 40px;
+}
+
+
+
+
+

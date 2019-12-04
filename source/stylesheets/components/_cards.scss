@@ -1,12 +1,129 @@
-.project-card {
-  padding: 8px;
-  height: 200px;
-  width: 100px;
-  background-image: url("swapsies.jpg");
-  font-family: 'Lato', sans-serif;
+.project-card-ronpa {
+  display: block;
+  top: 0px;
+  position: relative;
+  height: 300px;
+  width: 225px;
+  background-color: #F9F3D3;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px 48px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  transition: all 0.2s ease-out;
+  &:hover {
+    box-shadow: 2px 4px 8px rgba(38, 38, 38, 0.3);
+    top: -4px;
+    border: 1px solid #C24F48;
+    background-color: #F9F3D3;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #C24F48;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+  &:hover:before {
+    transform: scale(2.15);
+  }
 }
 
-#card-link {
+.project-card-swapsies {
+  display: block;
+  top: 0px;
+  position: relative;
+  height: 300px;
+  width: 225px;
+  background-color: #65ACC9;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px 48px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  transition: all 0.2s ease-out;
+  &:hover {
+    box-shadow: 2px 4px 8px rgba(38, 38, 38, 0.3);
+    top: -4px;
+    border: 1px solid #F76733;
+    background-color: #65ACC9;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #F76733;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+  &:hover:before {
+    transform: scale(2.15);
+  }
+}
+
+
+.project-card-cocktail {
+  display: block;
+  top: 0px;
+  position: relative;
+  height: 300px;
+  width: 225px;
+  background-color: #ADA8B6;
+  border-radius: 4px;
+  padding: 32px 24px;
+  margin: 12px 48px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #f2f8f9;
+  transition: all 0.2s ease-out;
+  &:hover {
+    box-shadow: 2px 4px 8px rgba(38, 38, 38, 0.3);
+    top: -4px;
+    border: 1px solid #FFCB47;
+    background-color: #ADA8B6;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #FFCB47;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+  &:hover:before {
+    transform: scale(2.15);
+  }
+}
+
+.card-link {
   width: 100%;
   height: 100%;
+  &:hover {
+    box-shadow: 4px 4px 2px (0, 0, 0, 0.4);
+    background-color: blue;
+  }
 }
